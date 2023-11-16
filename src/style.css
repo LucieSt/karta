@@ -9,18 +9,23 @@ html {
 }
 
 body {
-  background-color: black;
-  background-image: url(./img/bg.jpg);
-  background-size: cover;
   min-height: 100vh;
   margin: 0;
   padding: 1rem;
-  color: white;
 }
 
 .container {
-  max-width: 26rem;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.card-input {
+  width: 40px;
+}
